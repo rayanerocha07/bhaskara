@@ -15,7 +15,7 @@ document.writeln('O valor de DELTA é =  ', delta);
 if (delta <= 0) {
   document.writeln('Não existem raízes reais.')
   
-} else if (delta == 0) {
+} else {
   var x1 = (b*(delta*2)) / 2 * a;
     document.getElementById('x1').innerHTML = x1;
     }
